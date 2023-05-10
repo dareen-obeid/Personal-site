@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>lab7</title>
+<style>
+
+
+
+body{
+background-color: lightgreen;
+}
+.name{
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 40px;
+}
+
+ .topcorner{
+   position:absolute;
+   top:10px;
+   right:10px;
+   background-color: #f1f1f1;
+   color: black;
+
+  }
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: grey;
+    
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 25px;
+  
+}
+.square {
+ position: relative;
+  height: 80px;
+  width: 80px;
+  background-color: orange;
+  border-radius: 20%;
+  display: inline-block;
+  border: 3px solid green;
+  
+}
+.dot {
+  transform: translate(10%, 10%);
+  height: 60px;
+  width: 60px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid green;
+   
+}
+
+.center{
+ position: absolute;
+        top: 50%;
+        left: 50%;
+}
+
+.bu{ 
+  background-color: black;
+  text-align: center;
+  color: white;
+  width:100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+
+}
+
+img{
+    display: none;
+}
+
+@media only screen and (max-width:480px) {
+  body {
+  background-color: white;
+ }
+
+
+.name{
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 40px;
+  font-size:8px;
+
+}
+ .topcorner{
+   position:absolute;
+   top:10px;
+   right:10px;
+   background-color: #f1f1f1;
+   color: black;
+   font-size:12px;
+
+  } 
+  
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width:100%;
+  margin: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 25px;
+} 
+
+.square {
+ position: relative;
+  height: 80px;
+  width: 80px;
+  background-color: #F08080;
+  border-radius: 20%;
+  display: inline-block;
+  border: 3px solid #778899;
+  
+}
+.dot {
+transform: translate(10%, 10%);
+  height: 60px;
+  width: 60px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid green;
+   
+}
+}
+
+
+
+@media only screen and (max-width:320px) {
+body {
+  background-color: white;
+ }
+.name{
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 40px;
+  font-size:6px;
+
+}
+ .topcorner{
+   position:absolute;
+   top:10px;
+   right:10px;
+   background-color: #f1f1f1;
+   color: black;
+   font-size:12px;
+  } 
+
+img{
+   position:absolute;
+   top:10px;
+   left:10px;
+   display: block;
+  }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+    visibility:hidden;
+} 
+
+
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class=name>
+<h1>MY NAME IS "DAREEN"</h1>
+<div class=topcorner>Contact me</div>
+<img src="IMG.jpg" alt="Iist icon" width="30" height="30">
+
+</div>
+
+<div class="flex-container">
+
+  <div>Deals</div>
+  <div>Gifts</div>
+  <div>Voucgers</div>  
+  <div>Free</div>
+  <div>Orders</div>
+</div>
+
+<div class=center>
+	<div class="square">
+	  <div class="dot"></div>
+  	</div>
+
+</div>
+
+<div class=bu>
+<h5>Bethlehem University</h5> 
+</div>
+
+
+</body>
+</html>
+
+

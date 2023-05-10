@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>lab6</title>
+<style>
+
+body{
+background-color: lightgreen;
+}
+
+.name{
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 40px;
+  
+}
+
+ .topcorner{
+   position:absolute;
+   top:10px;
+   right:10px;
+   background-color: #f1f1f1;
+   color: black;
+
+  }
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: grey;
+    
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 25px;
+  
+}
+.square {
+ position: relative;
+  height: 80px;
+  width: 80px;
+  background-color: orange;
+  border-radius: 20%;
+  display: inline-block;
+  border: 3px solid green;
+  
+}
+.dot {
+transform: translate(10%, 10%);
+  height: 60px;
+  width: 60px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  border: 3px solid green;
+   
+}
+
+.center{
+ position: absolute;
+        top: 50%;
+        left: 50%;
+}
+
+.bu{ 
+  background-color: black;
+  text-align: center;
+  color: white;
+  width:100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+
+}
+
+</style>
+</head>
+
+<body>
+<div class=name>
+<h1>MY NAME IS "DAREEN"</h1>
+<div class=topcorner>Contact me</div>
+</div>
+
+<div class="flex-container">
+
+  <div>Deals</div>
+  <div>Gifts</div>
+  <div>Voucgers</div>  
+  <div>Free</div>
+  <div>Orders</div>
+</div>
+
+<div class=center>
+	<div class="square">
+	  <div class="dot"></div>
+  	</div>
+
+</div>
+
+<div class=bu>
+<h6>Bethlehem University</h6> 
+</div>
+
+
+</body>
+</html>
